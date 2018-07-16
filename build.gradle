@@ -23,3 +23,7 @@ allprojects {
   dependencies {
   }
 }
+
+project(':one-entity') {
+    
+}
