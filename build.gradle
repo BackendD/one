@@ -27,3 +27,9 @@ allprojects {
 project(':one-entity') {
     
 }
+
+project(':one-repository') {
+    dependencies {
+		compile project(':one-entity')
+	}
+}
