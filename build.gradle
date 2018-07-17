@@ -39,3 +39,9 @@ project(':one-security') {
 		compile project(':one-repository')
 	}
 }
+
+project(':one-service') {
+    dependencies {
+		compile project(':one-repository')
+	}
+}

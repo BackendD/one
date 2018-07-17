@@ -1,3 +1,4 @@
 include 'one-entity'
 include 'one-repository'
 include 'one-security'
+include 'one-service'
