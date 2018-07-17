@@ -45,3 +45,10 @@ project(':one-service') {
 		compile project(':one-repository')
 	}
 }
+
+project(':one-resource') {
+    dependencies {
+		compile project(':one-service')
+        compile project(':one-security')
+	}
+}
